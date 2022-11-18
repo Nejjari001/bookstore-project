@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Bookstore: setup
 
-## Available Scripts
+The Bookstore is a website similar to the "Awesome Books" website built in the previous module. The MVP version of it that allows you to:
 
-In the project directory, you can run:
+-Display a list of books.
+-Add a book.
+-Remove a selected book.
+ By building this application, you will learn how to use React and Redux..
 
-### `npm start`
+> Learning objectives
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Set up a React app.
+- Use React documentation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Built With
 
-### `npm test`
+- REACT
+- HTML.
+- CSS.
+- Check the code with Linters tests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo (if available)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple example steps:
 
-### `npm run eject`
+- git clone git@github.com:Nejjari001/bookstore-project.git
+- cd math-magicians
+- npm install
+- npm start
+- index.html
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Run Tests
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To track linter errors locally follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Download all the dependencies run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+Track HTML linter errors run:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npx hint .
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Track CSS linter errors run:
 
-### Code Splitting
+```
+npx stylelint "**/*.{css,scss}"
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Track JavaScript linter errors run:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+npx eslint .
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Authors
+
+👤 Nejjari Abdelhafid
+
+- GitHub: [@Nejjari001](https://github.com/Nejjari001)
+- Twitter: [@AbdoNJ19](https://https://twitter.com/AbdoNJ19)
+- LinkedIn: [Abdelhafid Nejjari](https://www.linkedin.com/in/abdelhafid-nejjari/)
+
+## Credits
+
+- Topic inspired by [Microverse](https://www.microverse.org/)
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/AdnanOlarmmi/Capstone-II/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project and how we manage to build it!
+
+## Acknowledgments
+
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner, morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
+
+## 📝 License
+
+This project is [MIT](LICENSE) licensed
