@@ -1,100 +1,129 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Bookstore: setup
+<div align="center">
 
-The Bookstore is a website similar to the "Awesome Books" website built in the previous module. The MVP version of it that allows you to:
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
--Display a list of books.
--Add a book.
--Remove a selected book.
- By building this application, you will learn how to use React and Redux..
+  <h3><b>Microverse README Template</b></h3>
 
-> Learning objectives
+</div>
 
-- Set up a React app.
-- Use React documentation.
+<!-- PROJECT DESCRIPTION -->
 
-## Built With
+# 📖 [Bookstore: setup] <a name="about-project"></a>
 
-- REACT
-- HTML.
-- CSS.
-- Check the code with Linters tests.
-
-## Live Demo (if available)
+> The Bookstore is a website similar to the "Awesome Books" website built in the previous module. The MVP version of it that allows you to:
 
 
+-Display a list of books. <br/> - Add a book.<br/>  - Remove a selected book.<br/>
 
-## Getting Started
+Learning objectives
 
-To get a local copy up and running follow these simple example steps:
+Set up a React app.
+Use React documentation.
 
-- git clone git@github.com:Nejjari001/bookstore-project.git
-- cd math-magicians
-- npm install
-- npm start
-- index.html
+## 🛠 Built With <a name="built-with"></a>
 
-### Run Tests
+### Tech Stack <a name="tech-stack"></a>
 
-To track linter errors locally follow these steps:
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-Download all the dependencies run:
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    Check the code with Linters tests.
+  </ul>
+</details>
 
-```
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running follow these simple example steps.
+
+Fork and then Clone this repo using this URL (https://github.com/Nejjari001/bookstore-project)
+Or download it as a ZIP format from the green button above with the text "Code".
+
+### Setup
+
+### Install
+
+Install this project with:
+
 npm install
-```
+
+### Usage
+
+To run the project, execute the following command:
+
+npm start
+
+
+### Run tests
 
 Track HTML linter errors run:
 
-```
 npx hint .
-```
 
 Track CSS linter errors run:
 
-```
 npx stylelint "**/*.{css,scss}"
-```
 
 Track JavaScript linter errors run:
 
-```
 npx eslint .
-```
-
-### Deployment
 
 
+## Author
 
-## Authors
-
-👤 Nejjari Abdelhafid
+👤 **Nejjari Abdelhafid**
 
 - GitHub: [@Nejjari001](https://github.com/Nejjari001)
 - Twitter: [@AbdoNJ19](https://https://twitter.com/AbdoNJ19)
 - LinkedIn: [Abdelhafid Nejjari](https://www.linkedin.com/in/abdelhafid-nejjari/)
 
-## Credits
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Topic inspired by [Microverse](https://www.microverse.org/)
+<!-- CONTRIBUTING -->
 
-## Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/AdnanOlarmmi/Capstone-II/issues).
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project and how we manage to build it!
 
-## Acknowledgments
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
 
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner, morning session team, and standup team for their contributions.
 - Hat tip to anyone whose code was used.
 
-## 📝 License
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](LICENSE) licensed
