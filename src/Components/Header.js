@@ -1,6 +1,6 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import { FaUser } from "react-icons/fa";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { FaUser } from 'react-icons/fa';
 
 const Header = () => (
   <header className="header flex">
