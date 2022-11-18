@@ -4,6 +4,11 @@
       "es6": true,
       "jest": true
     },
+    "rules": {
+        "avoidEscape": true,
+        "quotes": "off",
+        "allowTemplateLiterals": true
+     },
     "parser": "@babel/eslint-parser",
     "parserOptions": {
       "ecmaFeatures": {
