@@ -10,11 +10,14 @@ export const checkBookStatus = () => ({
 });
 
 // Categories reducer
-const categoriesReducer = (state = initialState, action) => {
-  if (action.type === types.CHECK_BOOK_STATUS) {
-    return 'Under construction';
+const categoriesReducer = (state = initialState, action) =>{
+  switch (action.type) {
+    case types.CHECK_BOOK_STATUS:
+      return 'Under construction';
+
+    default:
+      return state;
   }
-  return state;
 };
 
 export default categoriesReducer;
