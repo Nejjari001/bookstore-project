@@ -11,7 +11,7 @@
 }
 
 :root {
-  --color1: #4f44f0;
+  --color1: #0290ff;
   --color2: #e8e8e8;
   --font-light: "Roboto Slab", serif;
   --font-head: "Montserrat", sans-serif;
@@ -59,7 +59,7 @@ button:hover {
   width: 100%;
 }
 
-.nav>h1 {
+.nav > h1 {
   font-family: var(--font-head);
   font-size: 1.8em;
 }
@@ -68,7 +68,7 @@ button:hover {
   list-style: none;
 }
 
-.navlinks>li>a {
+.navlinks > li > a {
   font-family: var(--font-head);
   font-weight: 300;
   font-size: 14px;
@@ -135,7 +135,7 @@ svg {
 
 .status {
   font-family: var(--font-head);
-  color: #e7a619;
+  color: #121212;
   opacity: 0.5;
 }
 
@@ -189,7 +189,7 @@ svg {
   font-weight: 300;
 }
 
-.book-methods>button {
+.book-methods > button {
   border: none;
   padding: 15px 10px 0 0;
   color: #4386bf;
@@ -197,7 +197,7 @@ svg {
   font-weight: 300;
 }
 
-.progress>button {
+.progress > button {
   font-family: var(--font-head);
   color: #fff;
   background-color: var(--color1);
@@ -207,7 +207,7 @@ svg {
   font-size: 0.65em;
 }
 
-.book-categories>button {
+.book-categories > button {
   color: #fff;
   background-color: var(--color1);
   padding: 7px 15px 7px 15px;
@@ -216,11 +216,11 @@ svg {
   font-size: 0.7em;
 }
 
-.book-methods>button:hover {
+.book-methods > button:hover {
   color: rgba(18, 18, 18, 0.9);
 }
 
-.progress>button:hover {
+.progress > button:hover {
   color: var(--color1);
   background: #fff;
   box-shadow: 0 0 0.5px 1px var(--color1);
@@ -318,14 +318,14 @@ input::placeholder {
   padding: 20px;
 }
 
-.book-categories>h2 {
+.book-categories > h2 {
   font-family: var(--font-head);
   padding-bottom: 10px;
   color: var(--color1);
 }
 
-.book-categories>h3 {
-  color: rgb(229, 245, 8);
+.book-categories > h3 {
+  color: green;
   padding: 10px;
 }
 
